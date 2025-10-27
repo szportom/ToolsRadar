@@ -1,0 +1,16 @@
+{
+  "OSINT": {
+    "Social Media": [
+      {"name": "Sherlock", "url": "https://github.com/sherlock-project/sherlock"},
+      {"name": "Twint", "url": "https://github.com/twintproject/twint"}
+    ],
+    "Domains": [
+      {"name": "Whois", "url": "https://whois.domaintools.com/"}
+    ]
+  },
+  "Cybersecurity": {
+    "Scanning": [
+      {"name": "Nmap", "url": "https://nmap.org"}
+    ]
+  }
+}
