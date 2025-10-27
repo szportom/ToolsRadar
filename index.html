@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ToolsRadar</title>
+  <!-- vis-network (network visualization) -->
+  <link rel="stylesheet" href="https://unpkg.com/vis-network/styles/vis-network.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>ToolsRadar</h1>
+    <p class="tagline">Interaktywna sieć narzędzi — dark mode</p>
+  </header>
+
+  <main>
+    <div id="network" class="network"></div>
+    <aside class="legend" id="legend">
+      <h3>Legenda</h3>
+      <div id="info">Kliknij w węzeł, aby otworzyć link. Przytrzymaj i przeciągnij, aby przesunąć.</div>
+    </aside>
+  </main>
+
+  <footer class="footer">ToolsRadar — dynamiczna mapa narzędzi</footer>
+
+  <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
